@@ -7,22 +7,13 @@ header{
 	width: 100%;
 	height: auto;
 	margin:0;	
-	position: fixed;	
 }
 body{
+	margin-top: 0;
 	background-image: url(../assets/images/hero.gif);
 	background-size: 100% auto;	
-	background-position: 30% 10%;
+	
 	background-repeat: no-repeat;
-
-}
-.boton{
-	background-color: transparent;
-	color: #fff;
-	width: 60px;
-	height: 30px;
-	font-size: 15px;
-	border-radius: 8px;
 }
 header img{
 	width: 80px;
@@ -33,28 +24,48 @@ header img{
 }
 header nav {
 	float: right;	
-	margin-top: 10px;
-	color: #fff;
-	margin-right: 15px;
+	padding-top: 10px;
 }
-
 li{
 	display: inline-block;
 	list-style: none;
 	padding: 10px;	
 }
+nav a{
+	text-decoration: none;
+	color: #fff;
+	padding: 25px;
+
+}
+.boton{
+	background-color: transparent;
+	color: #fff;
+	width: 60px;
+	height: 30px;
+	font-size: 15px;
+	border-radius: 8px;
+}
+.over{
+	overflow: auto;
+	margin:0;
+	height: auto;
+	width: 100%;
+}
 aside{
-	width: 400px;
-	height: 400px;
+	width: 450px;
+	height: 300px;
 	background-color: #fff;
 	float: right;
-	margin-top: 100px;
+	margin-top: 40px;
+	margin-bottom: 130px;
+	padding: 5px;
 }
 aside h1{
      font-size: 35px;
      color: #352384;
      padding-left: 50px;
-     padding-top: 10px;
+     padding-top: 2px;
+     margin-top: 5px;
      padding-bottom: 1px;
      font-size: 25px;
  }
@@ -92,85 +103,78 @@ aside span{
 .aaa{
 	font-size: 10px;
 }
+.info{
+	margin:0;
+	width: 100%;
+	height: auto;
+	overflow: auto;
+	background: linear-gradient(#76278F, #2B1E66);
+}
 
 .tel{
-	width: 50%;
-	height: 430px;	
-	background: linear-gradient(#76278F, #2B1E66);
-	color: #fff;
-	margin-top: 600px;
-	padding-left: 50px;
-	position: absolute;
+	width: 400px;
+	height: 390px;	
+	margin:0;	
+	color: #fff;	
+	padding-left: 50px;	
+	display: inline-block;
 }
 .tel h2{    
 	font-size: 30px;
 	font-weight: bold;
-	padding-top: 2px;
-	padding-left: 3px;
+	margin:0;
 }
 .tel p{
 	font-size: 13px;
 	font-weight: bold;
-	padding-bottom: 0;
-	padding-left: 2px;
+	margin:0;
 }
 .teldos{
 	width: 50%;
-	height: 430px;
-	margin-left: 50%;
-	margin-top: 600px;
-	background: linear-gradient(#76278F, #2B1E66);
-	position: absolute;
+	height: 390px;
+	margin:0;
+	float: right;
 }
 #fono{
-	padding-top: 15px;
-	padding-right: 200px;
-	width: 400px;
+	margin:0;
+	width: 300px;
 	height: auto;
 	float: right;
 }
+.videos{
+	width: 100%;
+	height: auto;
+	overflow: auto;
+	margin: 0;
+}
+
 #video1{
-    padding-top: 76.3%; 
-    margin-left: 44%;    
-   position: absolute;    
+    padding-top: 10px;      
+   float: right;    
 }
 #information{
-	width: 50%;
+	width: 300px;
 	height: auto;
-	color: #000;
-	padding-top: 76%;
-	padding-left: 2%;	
-	position: absolute;
+	color: #000;		
+	float: left;
 }
 #information h6 h1{
 	padding:0;	
 	margin:0;
 	padding-top: 2px;
 }
-#video2{
-    padding-top: 96.2%; 
-    padding-left: 30px;    
-   position: absolute;
+#video2{        
+  float: left;
 
 }
-#information2{
-	padding-left: 70%;
-	padding-top: 96.2%;
-	position: absolute;
+#information2{	
+		float: right;
 }
 #video3{
-	 padding-top: 116.2%; 
-     margin-left: 44%;    
-    position: absolute; 
+
+	float:right;
 }
-#information3{
-	padding-left: 2%;
-	padding-top: 116.2%;
-	position: absolute;
+#information3{	
+	float: left;
+	width: 200px;
 }
-/*
-footer{
-	width: 100%;
-	height: 500px;
-	background-color: #333447;
-}*/
