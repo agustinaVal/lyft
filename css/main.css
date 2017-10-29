@@ -115,19 +115,11 @@ aside span{
 	width: 400px;
 	height: 390px;	
 	margin:0;	
-	color: #fff;	
+	color: #fff;
+	align-content: center;	
 	padding-left: 50px;	
+	padding-top: 100px;
 	display: inline-block;
-}
-.tel h2{    
-	font-size: 30px;
-	font-weight: bold;
-	margin:0;
-}
-.tel p{
-	font-size: 13px;
-	font-weight: bold;
-	margin:0;
 }
 .teldos{
 	width: 50%;
@@ -138,8 +130,19 @@ aside span{
 #fono{
 	margin:0;
 	width: 300px;
+	padding-top: 30px;
 	height: auto;
 	float: right;
+}
+.tel h2{    
+	font-size: 25px;
+	font-weight: bold;
+	margin:0;
+}
+.tel p{
+	font-size: 10px;
+	font-weight: bold;
+	margin:0;
 }
 .videos{
 	width: 100%;
@@ -147,21 +150,25 @@ aside span{
 	overflow: auto;
 	margin: 0;
 }
-
-#video1{
-    padding-top: 10px;      
-   float: right;    
-}
 #information{
 	width: 300px;
 	height: auto;
 	color: #000;		
 	float: left;
+	margin: 0;
+	padding-left: 30px;
 }
-#information h6 h1{
-	padding:0;	
+#video1{
+    padding-top: 10px;      
+   float: right;    
+}
+#information h6{
 	margin:0;
-	padding-top: 2px;
+	font-size: 15px;
+	padding-top: 0px;
+	padding: 2px;
+	font-weight: bold;
+
 }
 #video2{        
   float: left;
@@ -169,6 +176,7 @@ aside span{
 }
 #information2{	
 		float: right;
+		padding-right: 30px;
 }
 #video3{
 
@@ -176,5 +184,62 @@ aside span{
 }
 #information3{	
 	float: left;
+	padding-left: 30px;
 	width: 200px;
+}
+footer{
+	width: 100%;
+	height: auto;
+	margin: 0;
+	padding: 20px;
+	background-color: #585757;
+	color: #fff;
+}
+.data{
+	display: inline-block;
+	padding-left: 200px;
+	padding-top: 10px;	
+
+}
+
+#imagenes1{
+	width:100px;
+	height: auto;
+	float: right;
+	padding-top: 50px;
+}
+#imagenes2{
+	width: 100px;
+	height: auto;
+	float: right;
+	padding: 50px;
+	padding-right: 0;
+
+}
+#imagenes3{
+	width: 100px;
+	height: auto;
+	float: right;
+}
+.iconns{
+	display: block;
+	margin:0;
+	margin-left: 600px;
+	padding: 0px;
+	
+}
+.fa-facebook-official{
+	width:30px;
+	height: auto;
+	padding: 10px;
+}
+.fa-instagram{
+	width: 30px;
+	height: auto;
+	padding: 10px;
+}
+.fa-twitter-square{
+	width:30px;
+	height: auto;
+	padding: 10px;
 }
